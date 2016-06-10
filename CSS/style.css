@@ -1,0 +1,104 @@
+  body {    /* Font for whole project, background colour and font size  */
+  margin:0px;
+  padding: 0px;
+  font-family:"Segoe UI";
+  font-size: 18px;	
+  background-color: #ffffff;
+  z-index:-1;  
+  }
+   .logo {
+	  position:fixed;  /*logo positioning*/
+	  top:10px;
+	  left:300px;
+	  z-index:1;
+  }
+  .nav{
+	  position:relative;    /*navigation bar: */
+	  background-color:#FFFFFF;
+	  color: #fffff;
+	  list-style: none;
+	  text-align:center;
+	  padding-top: 10px;
+	  width:100%;
+	  height:75px;
+	  border-bottom-style: dotted;
+	  border-color:grey;
+	  border-width: 1px; 
+  }
+ 
+   .nav ul {
+	   position:relative;  
+	   width:100%;
+	   bottom:26px;
+   }
+  .nav li {
+	  display:inline-block;
+	  padding-right: 50px;
+	  padding-left: 0px;
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	  }
+  .nav a {
+	  text-decoration:none;  /*navigation bar text*/
+	  color: black;
+	  font-weight:100;
+  }
+  .nav a:hover {        /*navigation bar text hover*/
+	  color:grey; 
+  }
+  .nav p{
+	  color: grey;
+	  font-weight:100;
+  }
+  
+  .footer {
+	  position:absolute;   /*footer*/
+	  background-color:#ffffff;
+	  color: #fffff;
+	  bottom:0;
+	  width:100%;
+	  list-style: none;
+	  text-align:center;
+	  border-top-style: dotted;
+	  border-color:grey;
+	  border-width: 1px;
+  }
+  .footer ul{
+	  position:relative;
+	  width:100%;
+	  left:0px;
+  }
+  .footer li {
+      display:inline-block;
+      padding-right: 50px;
+	  
+  }
+  .footer a {
+	  text-decoration:none;
+	  color: black;
+	  font-weight:100;
+  }
+  .footer a:hover {
+	  color:grey;
+  }
+  .footer p{
+	  color: grey;
+	  font-weight:100;
+  }
+  #tw{
+	  position:relative;  /*twitter logo*/
+	  bottom:-6px;
+  }
+  #fb{		/*facebook logo*/
+	  
+	  
+  }
+  #yt{
+	  position:relative; /*youtube logo*/
+	  bottom:-8px;
+  }
+  #skype{				/*skype logo*/
+	  
+	  
+  }
+  
